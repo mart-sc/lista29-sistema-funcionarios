@@ -1,0 +1,8 @@
+CREATE TABLE funcionario (
+	id LONG AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR(255) NOT NULL,
+	endereco VARCHAR(255) NOT NULL,
+	num_dep INT NOT NULL,
+	salario NUMERIC(10, 2) NOT NULL,
+	nascimento DATE NOT NULL
+);
